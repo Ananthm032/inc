@@ -1,0 +1,55 @@
+.image-portion{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Images/image\ 8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bg-img{
+    width: 100%;
+    height: 100vh;       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: aliceblue;
+    
+}
+.ag{
+    display: flex;
+    align-items: center;
+}
+.ag img{
+    width: 60px;
+    height: 60px;
+}
+.ag span{
+    font-size: 32px;
+    font-weight: 600;
+    color: aliceblue;
+}
+@media screen and (max-width:740px){
+    .bg-img{
+        height: 40vh;
+    }
+    .ag img{
+        width: 40px;
+        height: 40px;
+    }
+    .ag span{
+        font-size: 24px;
+        font-weight: 600;
+        color: aliceblue;
+    }
+    .bg{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .cg{
+        font-size: 10px;
+      font-weight: 500;
+    }
+    .dg{
+        font-size: 10px;
+      font-weight: 500;
+    }
+}
