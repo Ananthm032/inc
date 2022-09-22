@@ -49,7 +49,7 @@ function Fifith() {
    </div>
    </div>
    <div className='fifth-bottom'>
-<p>NFT Marketplace . 2022 Copyrights. All rights are reserved</p>
+<p>NFT Marketplace . 2022 @Copyrights. All rights are reserved</p>
    </div>
     </div>
   )

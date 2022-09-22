@@ -1,18 +1,21 @@
 .fifth{
     width: 100%;
     height: 60vh;
-    background-color: rgb(40, 39, 39);
-    color: aliceblue;
+    background: #151515;
+    color: #CACDD5;
 }
 
 .fifth-top{
-    width: 1005;
+    width: 100%;
     height: 50vh;
-   border: 1.5px solid lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #313131;
    border-top: transparent;
    border-left: transparent;
    border-right: transparent;
-   margin:0px 20px  0px 20px;
+ 
 }
 .fi-icon{
     display: flex;
@@ -25,7 +28,7 @@
     flex-direction: row;
     align-items:flex-start;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 20px;
 }
 .fi-img{
     display: flex;
@@ -45,6 +48,7 @@
 .fi-2{
     display: flex;
     flex-direction: column;
+    line-height: 36px;
 }
 .fi-2 span{
     font-size: 18px;
@@ -54,6 +58,7 @@
 .fi-3{
     display: flex;
     flex-direction: column;
+    line-height: 36px;
 }
 .fi-3 span{
     font-size: 18px;
@@ -63,6 +68,7 @@
 .fi-4{
     display: flex;
     flex-direction: column;
+    line-height: 36px;
 }
 .fi-4 span{
     font-size: 18px;
@@ -79,17 +85,31 @@ padding: 20px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    align-items:flex-start;
+    justify-content: space-around;
 }
 @media screen and (max-width:740px){
     .fi-section{
         flex-direction: column;
         align-items: flex-start;
-        
-        gap: 20px;
+        gap:20px;
     }
     .fifth-bottom p{
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .fi-2{
+        line-height: 27px;
+    }
+    .fi-3{
+        line-height: 27px;
+    }
+    .fi-4{
+        line-height: 27px;
+    }
+    .map{
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+       
     }
 }

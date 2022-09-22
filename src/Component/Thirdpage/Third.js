@@ -25,7 +25,7 @@ function Third() {
          <p>Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
             <div className='left2'>
-<img src={Img5} width="250px" height="150px"/>
+<img src={Img5}/>
 </div>
 
            </div>
@@ -37,7 +37,7 @@ function Third() {
          <p>Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
             <div className='left22'>
-<img src={Img5} width="250px" height="150px"/>
+<img src={Img5} />
 </div>
 
            </div>
