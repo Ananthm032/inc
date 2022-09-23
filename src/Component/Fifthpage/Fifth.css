@@ -46,6 +46,9 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .fi-1{
+    gap: 10px;
+  }
   .fi-img {
     display: flex;
     flex-direction: row;
@@ -73,7 +76,7 @@
   .fi-icon{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
   }
  
   .fi-2 span,.fi-3 span,.fi-4 span{
