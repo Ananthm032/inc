@@ -1,115 +1,112 @@
+@font-face {
+    font-family:imported ;
+    src: url(../../Satoshi-Variable.ttf);
+}
 .fifth{
     width: 100%;
-    height: 60vh;
-    background: #151515;
+    height: 55vh;
+    background-color: black;
     color: #CACDD5;
 }
 
-.fifth-top{
+.fi-top{
     width: 100%;
-    height: 50vh;
+    height: 45vh;
+    padding: 30px;
+}
+.fi-bottom{
+    width: 100%;
+    height: 10vh;
+
+}
+.fi-bottom p{
     display: flex;
+    font-size: 16px;
+    font-family: imported;
+    font-weight: 400;
+    color: #CACDD5;
+    align-items: center;
+    justify-content:center;
+    padding: 20px;
+    }
+    
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+  }
+  .grid-container1 > div {
+    border-bottom: 1px solid #313131;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+  }
+  .fi-1,.fi-2,.fi-3,.fi-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .fi-img {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
     align-items: center;
     justify-content: center;
-    border: 1px solid #313131;
-   border-top: transparent;
-   border-left: transparent;
-   border-right: transparent;
+  }
+  .fi-img span{
+   font-size: 24px;
+   font-weight: 700;
+   font-family: imported;
+   letter-spacing: 1.3px;
+  }
+  .fi-img img{
+    width: 40px;
+    height: 40px;
+  }
+  .fi-p p{
+    text-align:start;
+    width: 250px;
+    font-size: 16px;
+    font-family: imported;
+    font-weight: 400;
+  }
+  .fi-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
  
-}
-.fi-icon{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-.fi-section{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items:flex-start;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.fi-img{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.fi-img span{
-    font-size: 32px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  .fi-2 span,.fi-3 span,.fi-4 span{
+    font-size: 16px;
+    font-family: imported;
     font-weight: 700;
-}
-.fi-1{
-    width: 301px;
-    display: flex;
-    flex-direction: column; 
-}
-.fi-2{
-    display: flex;
-    flex-direction: column;
-    line-height: 36px;
-}
-.fi-2 span{
-    font-size: 18px;
-    font-weight: 500;
     color: #F1A240;
-}
-.fi-3{
-    display: flex;
-    flex-direction: column;
+  }
+  .fi-2 p,.fi-3 p,.fi-4 p{
+    font-size: 16px;
+    font-family: imported;
+    font-weight: 700;
+    color: #CACDD5;
     line-height: 36px;
-}
-.fi-3 span{
-    font-size: 18px;
-    font-weight: 500;
-    color: #F1A240;
-}
-.fi-4{
-    display: flex;
-    flex-direction: column;
-    line-height: 36px;
-}
-.fi-4 span{
-    font-size: 18px;
-    font-weight: 500;
-    color: #F1A240;
-}
-.fifth-bottom{
-display: flex;
-align-items: center;
-justify-content:center;
-padding: 20px;
-}
-.map{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items:flex-start;
-    justify-content: space-around;
-}
-@media screen and (max-width:740px){
-    .fi-section{
-        flex-direction: column;
-        align-items: flex-start;
-        gap:20px;
+  }
+  @media screen and (max-width:740px){
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 70%  50% ;
+        
+      }
+      .fi-top{
+        padding: 0px;
+        height: 65vh;
+      }
+      .fifth{
+        height: 80vh;
+        background-color: black;
     }
-    .fifth-bottom p{
-        font-size: 10px;
-    }
-    .fi-2{
-        line-height: 27px;
-    }
-    .fi-3{
-        line-height: 27px;
-    }
-    .fi-4{
-        line-height: 27px;
-    }
-    .map{
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 20px;
-       
-    }
-}
+    .fi-bottom p{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding: 20px;
+        }
+  }

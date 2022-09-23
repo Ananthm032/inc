@@ -15,7 +15,7 @@ function Corder() {
          <i class="fas fa-bars"></i>
          </label>
          <ul>
-            <li><a class="active" href="#">MarketPlace</a></li>
+            <li><a href="#">MarketPlace</a></li>
             <li><a href="#">WhitePaper</a></li>
             <li><a href="#">Maps</a></li>
             <li><a href="#">RoadMap</a></li>

@@ -9,32 +9,31 @@ function Second() {
   return (
     <div className='second'>
       <div className='second-top'>
-        <div>
+        <div className='top1'>
             <h1>Inocyx Ecosystem</h1>
         </div>
-         <div><p>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam eu turpis
-            </p></div>
-         <div>
-            <p>molestie, dictum est a, mattis tellus</p>
-         </div>
+         <div className='top2'>
+          <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam eu turpis molestie, dictum est a, mattis tellus
+            </p>
+            </div>
       </div>
       <div className='second-card'>
        <Box className="card1">
         <Box className="card-1" >
-<span>MarketPlace</span>
+<span>Marketplace</span>
 <p>MoreDetails</p>
 </Box>
 </Box>
 <Box className="card2">
 <Box className="card-2" >
-<span>MarketPlace</span>
+<span>Exchange</span>
 <p>MoreDetails</p>
 </Box>
 </Box>
 <Box className="card3">
 <Box className="card-3" >
-<span>MarketPlace</span>
+<span>Metaverse Maps</span>
 <p>MoreDetails</p>
 </Box>
 </Box>

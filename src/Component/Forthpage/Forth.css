@@ -1,3 +1,9 @@
+@font-face {
+    font-family: imported;
+    src: url(../../Satoshi-Variable.ttf);
+}
+
+
 .forth{
     width: 100%;
     height: 50vh;
@@ -11,8 +17,20 @@
     align-items: center;
     justify-content: center;
 }
+.forth-top h1{
+    font-size: 32px;
+    font-family: imported;
+    font-weight: 700;
+}
+.forth-top p{
+    font-size: 16px;
+    font-family: imported;
+    font-weight: 400;
+    text-align: center;
+    width: 400px;
+}
 .forth-bottom{
-    height: 20vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,9 +44,17 @@
         display: flex;
         height: 30vh;
         flex-direction: column;
+       
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         
     }
-    
+    .forth-top h1{
+        font-size: 24px;
+        
+    }
+    .forth-top p{
+        font-size: 12px;
+        width: 300px;
+    }
 }

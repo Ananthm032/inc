@@ -10,9 +10,7 @@ nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: rgba(36, 36, 36, 0.6);
-  backdrop-filter: blur(27px);
-  
+  background: rgba(26, 26, 26, 0.785);
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;

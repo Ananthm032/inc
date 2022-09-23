@@ -1,30 +1,52 @@
+@font-face {
+    font-family:imported ;
+    src: url(../../Satoshi-Variable.ttf);
+}
 
 .second{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     color: rgb(255, 255, 255);
- 
+    padding-left: 30px;
+    padding-right: 30px;
+   
 }
 
 .second-top{
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
+    gap: 5px;
     align-items: center;
     justify-content: center;
-}
 
+}
+.top1 h1{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: imported;
+    letter-spacing: 2px;
+}
+.top2 p{
+    width: 550px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: imported;
+    text-align: center;
+}
 .second-card{
    width: 100%;
-   height: 65vh;
- 
+   height: 80vh;
+
 }
 
 .card-1{
     background-image: url(../../Images/Rectangle\ 137.png);
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     background-size:cover;
     border-radius: 8px;
     
@@ -33,7 +55,7 @@
    
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     justify-content: flex-end;
     color: aliceblue;
@@ -41,21 +63,30 @@
     
 }
 .card-1 p{ 
-    font-size: 12px;
-    padding: 8px;
+    font-size: 10px;
+    font-family: imported;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: linear-gradient(95.12deg, #F4B45B 0%, #FAE269 98.62%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
    
 }
-
+.card-1 span{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: imported;
+    letter-spacing: 1px;
+}
 .card-1:hover{
     transform: translate(10px,-10px);
 }
 .card-2{
     background-image: url(../../Images/Rectangle\ 138.png);
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     background-size:cover;
     border-radius: 8px;
     
@@ -64,7 +95,7 @@
 .card-2 {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     justify-content: flex-end;
     color: rgb(255, 255, 255);
@@ -73,20 +104,30 @@
   
 }
 .card-2 p{ 
-    font-size: 12px;
-    padding: 8px;
+    font-size: 10px;
+    font-family: imported;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: linear-gradient(95.12deg, #F4B45B 0%, #FAE269 98.62%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
-    
+   
+}
+.card-2 span{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: imported;
+    letter-spacing: 1px;
 }
 .card-2:hover{
     transform: translate(10px,-10px);
 }
 .card-3{
     background-image: url(../../Images/Rectangle\ 139.png);
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     background-size:cover;
     border-radius: 8px;
     
@@ -95,7 +136,7 @@
 .card-3 {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     justify-content: flex-end;
     color: aliceblue;
@@ -103,12 +144,22 @@
   
 }
 .card-3 p{ 
-    font-size: 12px;
-    padding: 8px;
+    font-size: 10px;
+    font-family: imported;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     background: linear-gradient(95.12deg, #F4B45B 0%, #FAE269 98.62%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
-    
+   
+}
+.card-3 span{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: imported;
+    letter-spacing: 1px;
 }
 .card-3:hover{
     transform: translate(10px,-10px);
@@ -116,28 +167,29 @@
 .second-card{
     display: flex;
     flex-direction: row;
+    gap: 50px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .card1{
-    width: 252px;
-    height: 303px;
+    width: 302px;
+    height: 353px;
     background-color: transparent;
     border-radius: 10px;
     border: 2px solid #F4B45B;
 
 }
 .card2{
-    width: 252px;
-    height: 303px;
+    width: 302px;
+    height: 353px;
     background-color: transparent;
     border-radius: 10px;
     border: 2px solid #F4B45B;
 
 }
 .card3{
-    width: 252px;
-    height: 303px;
+    width: 302px;
+    height: 353px;
     background-color: transparent;
     border-radius: 10px;
     border: 2px solid #F4B45B;
@@ -145,23 +197,27 @@
 }
 @media screen and (max-width:740px){
      
-    .second-top h1{
-       font-size: 24px;    
-    }
-    .second-top p{
-      font-size: 10px;
-    }
+   
    .second{
     display: flex;
     flex-direction: column;
-    height:90vh;
+    gap:20px;
+    height:130vh;
+    padding: 30px;
    }
    .second-top{
-    height: 10vh;
+    height: 15vh;
    color: aliceblue;
    }
+   .top1 h1{
+    font-size: 24px;
+   }
+   .top2 p{
+    font-size: 10px;
+     width: 300px;
+   }
     .second-card{
-        height: 80vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -170,29 +226,29 @@
     }
     .card1{
         width: 302px;
-        height: 150px;
+        height: 232px;
     }
     .card2{
         width: 302px;
-        height: 150px;
+        height: 230px;
     }
     .card3{
         width: 300px;
-        height: 150px;
+        height: 230px;
     }
     .card-1{
         width: 302px;
-        height: 150px;
+        height: 230px;
       
     }
     .card-2{
         width: 300px;
-        height: 150px;
+        height: 230px;
        
     }
     .card-3{
         width: 300px;
-        height: 150px;
+        height: 230px;
        
     }
 }

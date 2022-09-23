@@ -7,18 +7,19 @@ function First() {
     <div className='image-portion'>
      <div className="bg-img">
         <div className='ag'>
+          <div className='ag1'>
       <img src={Img1} width="50px" height="50px"/>
-     <span>Inocyx</span>
+     <span>INOCYX</span>
      </div>
+     </div>
+     <div className='bg1'>
      <div className='bg'>
-        <h1>The Ultimate Metaverse</h1>
+        <h1>The Ultimate Metaversity</h1>
      </div>
      <div className='cg'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam eu turpis </p>
-       
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam eu turpis molestie, dictum est a, mattis tellus</p>
      </div>
-     <div className='dg'>
-     <p> molestie, dictum est a, mattis tellus</p>
+  
      </div>
      </div>
     </div>
