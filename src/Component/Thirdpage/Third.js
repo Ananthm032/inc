@@ -5,7 +5,7 @@ import Img6 from "../../Images/Q1.png"
 import Img7 from "../../Images/Q2.png"
 function Third() {
   return (
-    <div className='third'>
+    <div className='third' id="Third">
      <div className='third-top'>
      <div>
             <h1>Roadmap</h1>

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Forth.css"
 function Forth() {
   return (
-    <div className='forth'>
+    <div className='forth' id="Fourth">
                 <div className='forth-top'>
             <h1>Our Sponcers</h1>
        
@@ -11,9 +11,9 @@ function Forth() {
             </p>
             </div>
         <div className='forth-bottom'>
-       <img src="https://www.coinbase.com/assets/press/coinbase-logos/coinbase.png" width="120px" height="80px"/>
-        <img src="https://seeklogo.com/images/P/polygon-matic-logo-54F492826D-seeklogo.com.png" width="120px" height="50px"></img>
-       <img src="https://logos-download.com/wp-content/uploads/2018/05/Ripple_logo_blue-700x201-1.png" width="120px" height="40px"/>
+       <img src="https://www.coinbase.com/assets/press/coinbase-logos/coinbase.png" width="120px" height="100px"/>
+        <img src="https://seeklogo.com/images/P/polygon-matic-logo-54F492826D-seeklogo.com.png" width="120px" height="80px"></img>
+       <img src="https://logos-download.com/wp-content/uploads/2018/05/Ripple_logo_blue-700x201-1.png" width="120px" height="80px"/>
         </div>
     </div>
   )

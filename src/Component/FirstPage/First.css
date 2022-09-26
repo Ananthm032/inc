@@ -2,15 +2,14 @@
     font-family:imported ;
     src: url(../../Satoshi-Variable.ttf);
 }
-
 .image-portion{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Images/image\ 8.png);
     background-size: cover;
- 
 }
+
 .bg-img{
     width: 100%;
-    height: 100vh;       
+    height: 100vh;    
     display: flex;
     flex-direction: column;
     gap:10px;
@@ -21,7 +20,7 @@
 }
 .bg h1{
     font-family: imported;
-    font-size: 32px;
+    font-size: clamp(32px,5vw,64px);
     font-weight: 700;
 }
 .bg1{
@@ -32,8 +31,8 @@
     justify-content: center;
 }
 .cg{
-    width: 500px;
-    font-size: 14px;
+    width:1000px;
+    font-size: clamp(14px,3vw,28px);
     font-weight: 400;
     font-family: imported;
     text-align: center;
@@ -44,12 +43,16 @@
     gap:5px;
     align-items: center;
     justify-content: center;
+   
 }
 .ag1 span{
-    font-size: 32px;
+    font-size: clamp(32px,5vw,64px);
     font-weight: 700;
     font-family: imported;
    letter-spacing: 3px;
+}
+.ag1 img{
+    width: clamp(60px,3vw,120px);
 }
 @media screen and (max-width:740px){
     .bg-img{

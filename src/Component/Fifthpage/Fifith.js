@@ -8,14 +8,14 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Fifith() {
   return (
-    <div className='fifth'>
+    <div className='fifth' id="Fifth">
       <div className='fi-top'>
       <div class="grid-container1">
       <div class="box1">
      
       <div className='fi-1'>
 <div className="fi-img">
-<img src={Img8} width="50px" height="50px"/>
+<img src={Img8} />
 <span>INOCYX</span>
 </div>
 <div className='fi-p'>

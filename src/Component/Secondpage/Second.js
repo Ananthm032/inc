@@ -7,7 +7,7 @@ import Img6 from "../../Images/Rectangle 139.png"
 import { blue } from '@mui/material/colors'
 function Second() {
   return (
-    <div className='second'>
+    <div className='second' id='Second'>
       <div className='second-top'>
         <div className='top1'>
             <h1>Inocyx Ecosystem</h1>

@@ -4,11 +4,12 @@ import Img1 from "../../Images/logo of inocyx.png"
 import Img2 from "../../Images/image 8.png"
 function First() {
   return (
-    <div className='image-portion'>
+    <div className='image-portion' id="First">
+
      <div className="bg-img">
         <div className='ag'>
           <div className='ag1'>
-      <img src={Img1} width="50px" height="50px"/>
+      <img src={Img1} />
      <span>INOCYX</span>
      </div>
      </div>

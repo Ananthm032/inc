@@ -16,7 +16,7 @@
 
 .second-top{
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -25,21 +25,21 @@
 
 }
 .top1 h1{
-    font-size: 32px;
+    font-size: clamp(32px,5vw,64px);
     font-weight: 700;
     font-family: imported;
     letter-spacing: 2px;
 }
 .top2 p{
-    width: 550px;
-    font-size: 16px;
+    width:1000px;
+    font-size:clamp(16px,3vw,32px);
     font-weight: 400;
     font-family: imported;
     text-align: center;
 }
 .second-card{
    width: 100%;
-   height: 80vh;
+   height: 70vh;
 
 }
 
