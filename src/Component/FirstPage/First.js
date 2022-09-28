@@ -8,7 +8,7 @@ function First() {
     
     
      
-    <div className='image-portion' id="First">
+    <div className='image-portion' id='hero'>
 
      <div className="bg-img">
         <div className='ag'>

@@ -1,13 +1,11 @@
 import React from 'react'
 import "./Second.css"
 import {Box, Button} from "@mui/material"
-import Img4 from "../../Images/Rectangle 137.png"
-import Img5 from "../../Images/Rectangle 138.png"
-import Img6 from "../../Images/Rectangle 139.png"
-import { blue } from '@mui/material/colors'
+
 function Second() {
   return (
-    <div className='second' id='Second'>
+    <div className='second' id='second'>
+      
       <div className='second-top'>
         <div className='top1'>
             <h1>Inocyx Ecosystem</h1>
@@ -39,6 +37,7 @@ function Second() {
 </Box>
       </div>
     </div>
+
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Forth.css"
 function Forth() {
   return (
-    <div className='forth' id="Fourth">
+    <div className='forth' id="fourth">
                 <div className='forth-top'>
             <h1>Our Sponcers</h1>
        
