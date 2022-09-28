@@ -1,76 +1,30 @@
-import React from 'react'
-import First from '../Component/FirstPage/First'
-import Second from '../Component/Secondpage/Second'
-import Third from '../Component/Thirdpage/Third'
-import Js from "../Component/Js"
+import React,{useState} from 'react'
 import "./Corder.css"
-import Forth from '../Component/Forthpage/Forth'
-import Fifith from '../Component/Fifthpage/Fifith'
-
+import Img from "../Images/logo of inocyx.png"
 function Corder() {
+
   return (
     <div>
-        <body>
-  <header>
-    <nav>
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-      <a href="#con">Footer</a>
-    </nav>
-  </header>
-  <section id="home">
-    <div class="container reveal">
-      <h1><First/></h1>
+ <body>
+      <nav>
+         <div class="logo">
+           <img src={Img}></img>
+         </div>
+         <input type="checkbox" id="click"/>
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a class="active" href="#hero">MarketPlace</a></li>
+            <li><a href="#second">WhitePaper</a></li>
+            <li><a href="#third">Maps</a></li>
+            <li><a href="#fourth">RoadMap</a></li>
+            <li><a href="#fifth">Exchange</a></li>
+         </ul>
+      </nav>
+      
+   </body>
     </div>
-  </section>
-  <section id="about">
-    <div class="container reveal">
-     
-      <div class="text-container">
-        <div class="text-box">
-            <Second/>
-          </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="services">
-    <div class="container reveal">
-     
-      <div class="text-container">
-        <div class="text-box">
-          <Third/>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container reveal">
-     
-      <div class="text-container">
-        <div class="text-box">
-          <Forth/>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="con">
-    <div class="container reveal">
-     
-      <div class="text-container">
-        <div class="text-box">
-          <Fifith/>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  </body>
-  <script src="../src/Component/Js.js"></script>
-  </div>
   )
 }
 

@@ -1,21 +1,14 @@
 import React from 'react'
-import First from "./Component/FirstPage/First"
-import Second from "./Component/Secondpage/Second"
-import Third from "./Component/Thirdpage/Third"
-import Forth from "./Component/Forthpage/Forth"
-import Fifith from './Component/Fifthpage/Fifith'
-
-import "./App.css"
+import Full from "./Component/Full"
 import Corder from './Css/Corder'
-
-
-
+import "./App.css"
 
 function App() {
   return (
-    <div>
-   
+    <div className='ape'>
+    
       <Corder/>
+      <Full/>
     </div>
   )
 }
