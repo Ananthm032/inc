@@ -1,10 +1,12 @@
 import React from 'react'
 import "./Second.css"
 import {Box, Button} from "@mui/material"
+import { useNav } from "../../Css/CustomHook/Customhook"
 
 function Second() {
+  const secondRef = useNav('Map')
   return (
-    <div className='second' id='second'>
+    <div className='second' ref={secondRef} id='SecondContainer'>
       
       <div className='second-top'>
         <div className='top1'>

@@ -1,16 +1,20 @@
 import React from 'react'
 import Full from "./Component/Full"
-import Corder from './Css/Corder'
+
 import "./App.css"
+import Nav from './Css/Navbar/Nav'
+import NavProvider from './Css/Context/Context'
 
 function App() {
   return (
-    <div className='ape'>
-    
-      <Corder/>
-      <Full/>
-    </div>
-  )
+    <div className='appContainer'>
+			<NavProvider>
+				<Nav />
+				<Full />
+			</NavProvider>
+		</div>
+	);
+  
 }
 
 export default App

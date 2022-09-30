@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Forth.css"
+import { useNav } from "../../Css/CustomHook/Customhook"
 function Forth() {
+  const fourthRef = useNav('Console')
   return (
-    <div className='forth' id="fourth">
+    <div className='forth' ref={fourthRef} id='FourthContainer'>
                 <div className='forth-top'>
             <h1>Our Sponcers</h1>
        

@@ -5,10 +5,11 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-
+import { useNav } from "../../Css/CustomHook/Customhook"
 function Fifith() {
+  const fifthRef = useNav('Fifth')
   return (
-    <div className='fifth' id="fifth">
+    <div className='fifth' ref={fifthRef} id='FifthContainer'>
       <div className='fi-top'>
       <div class="grid-container1">
       <div class="box1">

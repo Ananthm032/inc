@@ -1,14 +1,14 @@
 import React from 'react'
 import "./First.css"
 import Img1 from "../../Images/logo of inocyx.png"
-
+import { useNav } from "../../Css/CustomHook/Customhook"
 function First() {
-  
+  const firstRef = useNav('Metaverse')
   return (
     
     
      
-    <div className='image-portion' id='hero'>
+    <div className='image-portion' ref={firstRef} id='firstContainer'>
 
      <div className="bg-img">
         <div className='ag'>

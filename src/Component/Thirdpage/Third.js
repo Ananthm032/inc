@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Third.css"
+import { useNav } from "../../Css/CustomHook/Customhook"
 import Img5 from "../../Images/Q3.png"
 import Img6 from "../../Images/Q1.png"
 import Img7 from "../../Images/Q2.png"
 function Third() {
+  const thirdRef = useNav('Roadmap')
   return (
-    <div className='third' id="third">
+    <div className='third' ref={thirdRef} id='ThirdContainer'>
      <div className='third-top'>
      <div>
             <h1>Roadmap</h1>
