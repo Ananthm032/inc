@@ -8,9 +8,9 @@ const Nav = () => {
 		
 		<nav className='nav'>
 			<div className='div'>
-				<div>
+				<div className='div1'>
 			<img src={Img7} width="50px" height="50px"></img></div>
-			<div>
+			<div className='div2'>
 			{navLinks.map(({ navLinkId, scrollToId }, idx) => (
 				<NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} />
 			))}

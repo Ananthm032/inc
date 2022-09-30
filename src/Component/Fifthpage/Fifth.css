@@ -94,6 +94,7 @@
   }
   @media screen and (max-width:740px){
     .grid-container1 {
+     
         display: grid;
         grid-template-columns: 70%  50% ;
         

@@ -6,21 +6,32 @@ nav {
 	padding: 10px;
 	color: white;
 	max-height: 4em;
+	height: 120px;
+	background: rgba(41, 41, 41, 0.9);
 	
-	background-color: black;
 }
 .div{
 display: flex;
 align-items: center;
 justify-content: space-between;
+
 }
+.div1{
+	margin-left: 50px;
+}
+.div2{
+	margin-right: 50px;
+}
+
 nav span {
 	font-size: 18px;
-	border-bottom: 1px solid transparent;
+	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.2s ease;
 	transition-delay: 0.25s;
 	margin: 1em;
+	gap: 50px;
 	padding-bottom: 0.3em;
+	
 }
 
 nav span:hover {
@@ -34,6 +45,7 @@ nav span:hover i {
 
 nav span.activeClass i {
 	color: gold;
+	border-bottom: 2px solid gold;
 }
 
 nav span.activeClass {
